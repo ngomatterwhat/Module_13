@@ -23,37 +23,30 @@
 
 ![]
 
-For module 12, our class had to build a credit risk sampler to determine which borrower was "creditworthy". Utilizing, Python and our knowledge of Supervised Learning, we completed the challenge. 
+For module 13, the goal is to determine if " Alphabet Soup funding applicants will be successful, you will create a binary classification model using a deep neural network". Using skills such as, "Preprocess data for a neural network model, Use the model-fit-predict pattern to compileevaluate a binary classification model, Optimize the model" 
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Jupyter Notebook](https://jupyter.org/)
 * [Python](https://www.python.org/)
+* [Google Colab](https://colab.research.google.com/)
 
 
 ### Installation
 
-1. Install imbalance-learn
+IMPORTANT: APPLE M1 chip cannot handle TensorFlow or Keras, so all of the work done in this activity is through Google Colab. However with other devices, the installations should work. 
+
+1. Install TensorFlow
  ```
  conda activate dev
- conda install -c conda-forge imbalanced-learn
- conda list imbalanced-learn
+ pip install --upgrade tensorflow
+ python -c "import tensorflow as tf;print(tf.__version__)"
  ```
-  I had an Apple Mac M1, I had some issues with installing imblearn, my TA had a few work arounds:
   
-  ```
-    conda install -c glemaitre imbalanced-learn
-  ```
-  or
-  
-  ```
-   pip install -U imbalanced-learn
-  ```
-  
- 2. Install PyDotPlus
+ 2. Install Keras
  ```
- conda install -c conda-forge pydotplus
+ python -c "import tensorflow as tf;print(tf.keras.__version__)"
  ```
  
 
