@@ -21,7 +21,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![]
+![](Images/module_13.png)
 
 For module 13, the goal is to determine if " Alphabet Soup funding applicants will be successful, you will create a binary classification model using a deep neural network". Using skills such as, "Preprocess data for a neural network model, Use the model-fit-predict pattern to compileevaluate a binary classification model, Optimize the model" 
 
@@ -53,8 +53,8 @@ IMPORTANT: APPLE M1 chip cannot handle TensorFlow or Keras, so all of the work d
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![](images/TENSORFLOW.PNG)
-![]
+![](Images/TENSORFLOW.PNG)
+
 
 
 
